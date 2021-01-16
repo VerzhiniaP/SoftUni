@@ -1,0 +1,71 @@
+body {
+    background: #F0F1F5;
+    margin: 0;
+    padding: 2rem 12rem;
+    font-family: "Helvetica", sans-serif;
+}
+header > p {
+    float: left;
+    color: #f9690e;
+}
+nav {
+     text-align: right;
+}
+nav ul {
+    float: right;
+}
+nav ul li {
+    display: inline-block;
+    padding: 0 8px;
+}
+nav ul li {
+    color: #f9690e;
+    text-decoration: none;
+}
+main section:nth-child(1){
+ margin-top: 3rem;
+ background-image: url(../Introduction-to-CSS-Lab/Introduction-to-CSS-Lab/L2_01_Fitness-Site/Requirements-and-Resources/Images/picture.jpg);
+ background-size: cover;
+ background-position: center;
+ padding: 11rem 15rem;
+}
+main section:nth-child(1) h1{ 
+    color: white
+
+}
+main section:nth-child(1) span{
+    color: #f9690e;
+}
+
+main section:nth-child(1) button{
+    background: #f9690e;
+    border: none;
+    color: white;
+    font-size: 22px;
+    padding: 12px;
+    font-weight: bold;
+}
+
+main section:nth-child(2) article{
+    background: #f9690e;
+    color: white;
+    width: 29%;
+    display: inline-block;
+    padding: 20px;
+
+
+}
+main section:nth-child(2) article h3{
+    text-align: center;
+}
+footer article {
+    width: 45%;
+    display: inline-block;
+}
+footer article:nth-child(2){
+    text-align: right;
+}
+footer i {
+    padding: 16px;
+}
+
